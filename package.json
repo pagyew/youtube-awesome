@@ -1,0 +1,29 @@
+{
+  "name": "youtube-shortsless",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Removes everything related to shorts on YouTube",
+  "author": "Vladislav Tsepilov <https://github.com/pagyew>",
+  "license": "MIT",
+  "homepage": "https://github.com/pagyew/youtube-shortsless#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pagyew/youtube-shortsless.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pagyew/youtube-shortsless/issues"
+  },
+  "keywords": [
+    "userscript",
+    "tampermonkey",
+    "greasyfork",
+    "youtube",
+    "shorts"
+  ],
+  "scripts": {
+    "release": "bumpp -x \"node bump.js\" --all"
+  },
+  "devDependencies": {
+    "bumpp": "^9.4.1"
+  }
+}
