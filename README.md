@@ -1,3 +1,3 @@
-# Youtube Shortsless
+# YouTube Shortsless
 
 🎊 No Shorts Anymore! 🎊
