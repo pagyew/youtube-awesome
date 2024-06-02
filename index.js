@@ -52,17 +52,15 @@
     mutations.forEach(searchAndRemove)
   };
 
-  function onLoad() {
-      const observer = new MutationObserver(callback)
+  searchAndRemove({ target: document.body });
 
-      observer.observe(
-        document.body,
-        {
-          childList: true,
-          subtree: true
-        }
-      )
-  }
+  const observer = new MutationObserver(callback);
 
-  window.addEventListener('load', onLoad)
+  observer.observe(
+    document.body,
+    {
+      childList: true,
+      subtree: true
+    }
+  );
 })();
