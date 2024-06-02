@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Shortsless
 // @namespace    https://github.com/pagyew
-// @version      0.2.0
+// @version      0.2.1
 // @description  Removes everything related to shorts on YouTube
 // @author       Vladislav Tsepilov (https://github.com/pagyew)
 // @license      MIT
