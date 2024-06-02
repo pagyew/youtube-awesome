@@ -10,7 +10,7 @@
 // @match        https://www.youtube.com/*
 // @match        https://m.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
-// @grant        none
+// @run-at       document-body
 // ==/UserScript==
 
 (function() {
@@ -36,31 +36,9 @@
       'ytd-video-renderer:has(a#thumbnail[href*="shorts" i])',
   ];
 
-  function removeElement(el) {
-    el.remove();
-  };
+  const style = document.createElement('style');
 
-  function removeElementBySelector(target, selector) {
-    target.querySelectorAll(selector).forEach(removeElement);
-  };
+  style.innerHTML = `${selectors.join(',')}{ display: none !important; }`;
 
-  function searchAndRemove({ target }) {
-    selectors.forEach(removeElementBySelector.bind(null, target));
-  };
-
-  function callback(mutations) {
-    mutations.forEach(searchAndRemove);
-  };
-
-  searchAndRemove({ target: document.body });
-
-  const observer = new MutationObserver(callback);
-
-  observer.observe(
-    document.body,
-    {
-      childList: true,
-      subtree: true
-    }
-  );
+  document.body.appendChild(style);
 })();
