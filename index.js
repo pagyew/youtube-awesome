@@ -37,19 +37,19 @@
   ];
 
   function removeElement(el) {
-    el.remove()
-  }
+    el.remove();
+  };
 
   function removeElementBySelector(target, selector) {
-    target.querySelectorAll(selector).forEach(removeElement)
-  }
+    target.querySelectorAll(selector).forEach(removeElement);
+  };
 
   function searchAndRemove({ target }) {
-    selectors.forEach(removeElementBySelector.bind(null, target))
-  }
+    selectors.forEach(removeElementBySelector.bind(null, target));
+  };
 
   function callback(mutations) {
-    mutations.forEach(searchAndRemove)
+    mutations.forEach(searchAndRemove);
   };
 
   searchAndRemove({ target: document.body });
