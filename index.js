@@ -5,8 +5,8 @@
 // @description  Get the best YouTube experience
 // @author       Vladislav Tsepilov (https://github.com/pagyew)
 // @license      MIT
-// @homepageURL  https://github.com/pagyew/youtube-shortsless
-// @supportURL   https://github.com/pagyew/youtube-shortsless
+// @homepageURL  https://github.com/pagyew/youtube-awesome
+// @supportURL   https://github.com/pagyew/youtube-awesome
 // @match        https://www.youtube.com/*
 // @match        https://m.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com

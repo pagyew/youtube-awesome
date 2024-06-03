@@ -1,24 +1,25 @@
 {
-  "name": "youtube-shortsless",
+  "name": "youtube-awesome",
   "type": "module",
   "version": "1.0.0",
   "description": "Removes everything related to shorts on YouTube",
   "author": "Vladislav Tsepilov <https://github.com/pagyew>",
   "license": "MIT",
-  "homepage": "https://github.com/pagyew/youtube-shortsless#readme",
+  "homepage": "https://github.com/pagyew/youtube-awesome#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pagyew/youtube-shortsless.git"
+    "url": "git+https://github.com/pagyew/youtube-awesome.git"
   },
   "bugs": {
-    "url": "https://github.com/pagyew/youtube-shortsless/issues"
+    "url": "https://github.com/pagyew/youtube-awesome/issues"
   },
   "keywords": [
     "userscript",
     "tampermonkey",
     "greasyfork",
     "youtube",
-    "shorts"
+    "shorts",
+    "mixes"
   ],
   "scripts": {
     "release": "bumpp -x \"node bump.js\" --all"
