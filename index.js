@@ -7,7 +7,8 @@
 // @license      MIT
 // @homepageURL  https://github.com/pagyew/youtube-awesome
 // @supportURL   https://github.com/pagyew/youtube-awesome
-// @match        https://*.youtube.com/*
+// @match        https://www.youtube.com/*
+// @match        https://m.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @run-at       document-body
 // @grant        GM_getValue
