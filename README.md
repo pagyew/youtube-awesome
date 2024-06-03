@@ -1,6 +1,14 @@
-# YouTube Shortsless
+# YouTube Awesome
 
-🎊 No Shorts Anymore! 🎊
+__🎊 Get the best YouTube experience: 🎊__
+
+* No more shorts!
+* No more mixes!
+* No videos have already been watched!
+
+_* You can customize the options in the menu as you see fit!_
+
+## Installation
 
 [Install on Greasyfork](https://greasyfork.org/en/scripts/496728-youtube-shortsless)
 
