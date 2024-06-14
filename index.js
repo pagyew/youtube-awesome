@@ -47,6 +47,7 @@
     // Videos
     'ytd-rich-item-renderer:has(ytd-playlist-thumbnail):has(a[title^="Mix - "])',
     'ytd-radio-renderer:has(ytd-playlist-thumbnail):has(span[title^="Mix - "])',
+    'ytd-compact-radio-renderer:has(yt-collections-stack):has(span[title^="Mix - "])',
   ];
 
   const watchedSelectors = [
