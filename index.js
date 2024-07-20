@@ -53,6 +53,7 @@
   const watchedSelectors = [
     //Videos
     'ytd-rich-item-renderer:has(#progress[style="width: 100%;"])',
+    'ytd-compact-video-renderer:has(#progress[style="width: 100%;"])',
   ];
 
   const options = [
