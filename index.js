@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Awesome
 // @namespace    https://github.com/pagyew
-// @version      1.0.6
+// @version      1.0.7
 // @description  Get the best YouTube experience
 // @author       Vladislav Tsepilov (https://github.com/pagyew)
 // @license      MIT
