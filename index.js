@@ -134,7 +134,7 @@
       .flat();
 
     if (selectors.length > 0) {
-      style.innerHTML = `${selectors.join(',')}{ display: none !important; }`;
+      style.innerText = `${selectors.join(',')}{ display: none !important; }`;
     };
   };
 
