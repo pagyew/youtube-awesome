@@ -1,7 +1,7 @@
 {
   "name": "youtube-awesome",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Removes everything related to shorts on YouTube",
   "author": "Vladislav Tsepilov <https://github.com/pagyew>",
   "license": "MIT",
