@@ -38,6 +38,9 @@
 
     // Videos
     'ytd-video-renderer:has(a#thumbnail[href*="shorts" i])',
+
+    // Ads
+    'ytd-rich-item-renderer:has(ytd-ad-slot-renderer)',
   ];
 
   const mixSelectors = [
