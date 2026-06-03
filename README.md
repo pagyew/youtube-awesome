@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> The extension is no longer supported. Use [UnTrap](https://untrap.app/) instead.
+
 # YouTube Awesome
 
 __🎊 Get the best YouTube experience: 🎊__
