@@ -1,4 +1,5 @@
 <div align="center">
+  <img src=".github/assets/cover.png" alt="YouTube Awesome — project illustration" width="100%" />
   <h1>YouTube Awesome</h1>
   <p><strong>A smaller, quieter YouTube feed.</strong></p>
   <p>
